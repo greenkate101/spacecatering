@@ -22,7 +22,7 @@ main {
     background-repeat: repeat;
 }
 
-nav>ul>li>a {
+nav a {
 	color: #6AC08E;
 }
 
@@ -33,11 +33,11 @@ nav>ul {
 	overflow: hidden;
 }
 
-#outer-nav ul>li {
+#outer-nav {
 	display: inline-block;	
 }
  
- #dropdown {
+ .dropdown {
  	display: none;
  }
 
@@ -50,11 +50,9 @@ li a {
 }
 ul,
 li {
-	list-style: none;
+	list-style-type: none;
 }
  
-
-
 h2 + p {
 	font-size: 16px;
 }
